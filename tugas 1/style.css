@@ -1,0 +1,514 @@
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    /* Prevent potential horizontal scrolling */
+}
+
+.hero img {
+    display: block;
+    width: 100vw;
+    /* Set image width to match viewport width */
+    height: 95vh;
+    object-fit: cover;
+    margin-left: 50%;
+    /* Shift the image left by half of viewport width */
+    transform: translateX(-50%);
+    /* Shift the image back by half of viewport width */
+    z-index: -1;
+    /* Ensure image stays behind other content */
+}
+
+.hero .container {
+    position: relative;
+    width: 100%;
+    max-width: none;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.hero-content h1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content p {
+    font-family: 'Arial', sans-serif;
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content button {
+    margin: 0;
+    position: relative;
+    /* Ensure button stays within viewport */
+    z-index: 1;
+    /* Ensure button is above image */
+}
+
+.text-border {
+    border: 2px solid greenyellow;
+    padding: 20px;
+
+    display: inline-block;
+
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 100%;
+    height: 400px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 100%;
+    height: 400px;
+}
+
+.gmap_iframe {
+    height: 400px !important;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    /* Prevent potential horizontal scrolling */
+}
+
+.hero img {
+    display: block;
+    width: 100vw;
+    /* Set image width to match viewport width */
+    height: 95vh;
+    object-fit: cover;
+    margin-left: 50%;
+    /* Shift the image left by half of viewport width */
+    transform: translateX(-50%);
+    /* Shift the image back by half of viewport width */
+    z-index: -1;
+    /* Ensure image stays behind other content */
+}
+
+.hero .container {
+    position: relative;
+    width: 100%;
+    max-width: none;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.hero-content h1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content p {
+    font-family: 'Arial', sans-serif;
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content button {
+    margin: 0;
+    position: relative;
+    /* Ensure button stays within viewport */
+    z-index: 1;
+    /* Ensure button is above image */
+}
+
+.text-border {
+    border: 2px solid greenyellow;
+    padding: 20px;
+
+    display: inline-block;
+
+}
+
+
+
+.about-section {
+    position: relative;
+    margin-bottom: 50vh;
+    background-color: #f2f2f2;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    /* Sesuaikan dengan lebar gambar */
+    height: 200;
+    /* Menyesuaikan tinggi gambar dengan container */
+
+}
+
+.about-content {
+    padding-left: 220px;
+    /* Sesuaikan jarak ke kanan yang diinginkan */
+}
+
+.about-card {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding-bottom: 50px;
+    /* Sesuaikan nilai padding-bottom sesuai kebutuhan */
+}
+
+
+.about-card .img-fluid {
+    position: absolute;
+    /* Gunakan posisi absolut */
+    top: -120px;
+    /* Posisikan di atas card */
+    left: 50%;
+    /* Posisikan di bagian tengah secara horizontal */
+    transform: translateX(-50%);
+    /* Pusatkan gambar horizontal */
+    width: -50vh;
+    /* Atur lebar gambar */
+    height: auto;
+    /* Biarkan tinggi gambar disesuaikan */
+    z-index: 1;
+    /* Pastikan gambar di atas card */
+}
+
+
+
+.portfolio-section {
+    position: relative;
+    padding: 50px 0;
+    color: #fff;
+}
+
+
+.portfolio-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://png.pngtree.com/background/20220731/original/pngtree-light-green-texture-background-picture-image_1913893.jpg');
+    /* Ganti URL dengan URL gambar latar belakang yang diinginkan */
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    /* Menambahkan efek blur dengan 5px */
+    z-index: -1;
+
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 100%;
+    height: 400px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 100%;
+    height: 400px;
+}
+
+.gmap_iframe {
+    height: 400px !important;
+}
+
+.footer {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkcKp7_Vtwn-2mvPf9e9yXRj2Ug31P_lQnhc6D1CaAzA&s');
+    /* Background image URL */
+    background-size: cover;
+    width: 100%;
+    color: white;
+
+}
+
+.bullet {
+    font-size: 1.2rem;
+    /* Atur ukuran font */
+    text-decoration: none;
+    /* Hapus garis bawah */
+}
+
+
+.product-section .card {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.green-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    /* Sesuaikan dengan ukuran yang Anda inginkan */
+    height: 100px;
+    /* Sesuaikan dengan ukuran yang Anda inginkan */
+    background-color: rgb(17, 155, 17);
+    /* Atur warna lapisan ijo */
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+    /* Membuat bentuk segitiga di pojok kanan atas yang dibalik */
+}
+
+
+.discount-text {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(60%, -130%) rotate(45deg);
+    /* Membuat teks miring */
+    color: white;
+    /* Warna teks */
+    font-size: 14px;
+    /* Ukuran teks */
+}
+
+
+.star-rating {
+    margin-top: 5px;
+}
+
+.star-rating i {
+    color: #ccc;
+    /* Warna default untuk bintang yang tidak dipilih */
+    cursor: pointer;
+}
+
+.star-rating i.selected {
+    color: green;
+    /* Warna untuk bintang yang dipilih */
+}
+
+.testimony-section {
+    padding: 50px 0;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* Ratio 16:9 untuk video responsif */
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.other-content {
+    /* Gaya untuk konten di sebelah kanan video */
+}
+
+
+
+/* Responsive */
+.carousel {
+    margin: 50px auto;
+    padding: 0 70px;
+}
+
+.carousel .item {
+    color: #747d89;
+    min-height: 325px;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.carousel .thumb-wrapper {
+    padding: 25px 15px !important;
+    background: #fff !important;
+    border-radius: 6px !important;
+    text-align: center !important;
+    position: relative !important;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) !important;
+    margin-right: 10px !important;
+    /* Mengurangi margin-right */
+    margin-bottom: 10px !important;
+    /* Mengurangi margin-bottom */
+}
+
+
+
+.carousel .item .img-box {
+    height: 120px;
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.carousel .item img {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.carousel .item h4 {
+    font-size: 18px;
+}
+
+.carousel .item h4,
+.carousel .item p,
+.carousel .item ul {
+    margin-bottom: 5px;
+}
+
+.carousel .thumb-content .btn {
+    color: #7ac400;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+    border: 1px solid #7ac400;
+    padding: 6px 14px;
+    margin-top: 5px;
+    line-height: 16px;
+    border-radius: 20px;
+}
+
+.carousel .thumb-content .btn:hover,
+.carousel .thumb-content .btn:focus {
+    color: #fff;
+    background: #7ac400;
+    box-shadow: none;
+}
+
+.carousel .thumb-content .btn i {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.carousel .carousel-control {
+    height: 44px;
+    width: 40px;
+    background: #7ac400;
+    margin: auto 0;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+
+.carousel .carousel-control:hover {
+    background: #78bf00;
+    opacity: 1;
+}
+
+.carousel .carousel-control i {
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -19px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: #fff;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+.carousel .item-price {
+    font-size: 13px;
+    padding: 2px 0;
+}
+
+.carousel .item-price strike {
+    opacity: 0.7;
+    margin-right: 5px;
+}
+
+.carousel .carousel-control.left i {
+    margin-left: -2px;
+}
+
+.carousel .carousel-control.right i {
+    margin-right: -4px;
+}
+
+.carousel .carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    margin: 4px;
+    border-radius: 50%;
+    border: none;
+}
+
+.carousel-indicators li {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-indicators li.active {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.carousel .wish-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 99;
+    cursor: pointer;
+    font-size: 16px;
+    color: #abb0b8;
+}
+
+.carousel .wish-icon .fa-heart {
+    color: #ff6161;
+}
+
+.star-rating i {
+    cursor: pointer;
+}
+
+.star-rating i.selected {
+    color: #28a745;
+    /* Warna hijau untuk bintang yang dipilih */
+}

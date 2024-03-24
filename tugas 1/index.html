@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+    <!-- Custom CSS -->
+    <!-- Script Fancybox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <title>Test Teknologi Global</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarExample"
+                aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarExample">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <a class="navbar-brand" href="#"><img src="assets/logo.png" width="100" height="100" /></a>
+                    <li class="nav-item" style="margin-top: 25px;">
+                        <a class="nav-link active" aria-current="page" href="#" style="font-size: 24px;">Home</a>
+                    </li>
+                    <li class="nav-item" style="margin-top: 25px;">
+                        <a class="nav-link" href="#" style="font-size: 24px;">About</a>
+                    </li>
+                    <li class="nav-item" style="margin-top: 25px;">
+                        <a class="nav-link" href="#" style="font-size: 24px;">Service</a>
+                    </li>
+                    <li class="nav-item" style="margin-top: 25px;">
+                        <a class="nav-link" href="#" style="font-size: 24px;">Portofolio</a>
+                    </li>
+                    <li class="nav-item" style="margin-top: 25px;">
+                        <a class="nav-link" href="#" style="font-size: 24px;">Contact</a>
+                    </li>
+                    <li class="nav-item" style="margin-top: 25px;">
+                        <a class="nav-link" href="#" style="font-size: 24px;"><i
+                                class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero -->
+    <section class="hero">
+        <section class="hero">
+            <div class="container">
+                <!-- Menggunakan gambar dengan format .webp -->
+                <picture>
+                    <source
+                        srcset="https://media.istockphoto.com/id/1067851152/photo/large-terrace-patio-with-rattan-garden-furniture-in-the-garden-on-wooden-floor.jpg?s=612x612&w=0&k=20&c=OR60p74GXNCMswz6u4yeaVaWoqfgQYtDYn1GMYpCqM0="
+                        type="image/webp">
+                    <img src="https://media.istockphoto.com/id/1067851152/photo/large-terrace-patio-with-rattan-garden-furniture-in-the-garden-on-wooden-floor.jpg?s=612x612&w=0&k=20&c=OR60p74GXNCMswz6u4yeaVaWoqfgQYtDYn1GMYpCqM0="
+                        alt="Hero Image">
+                    <!-- Fallback untuk browser yang tidak mendukung .webp -->
+                </picture>
+                <div class="hero-content">
+                    <div class="container">
+                        <div class="text-border">
+                            <h1 class="display-1 text-dark">Explore<br>Dream & Create</h1>
+                            <p>Our service offer countless possibilities</p>
+                            <br>
+                        </div>
+                        <br>
+                        <br>
+                        <button class="btn btn-success btn-success-light btn-lg">
+                            READ MORE
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- About -->
+    <section id="about" class="about-section mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="card about-card p-4 position-relative" style="height: 300px;">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card-body text-end">
+                                    <h5 class="card-title">WE ARE THE HOME TECHNOLOGY EXPERTS</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                                        consequat turpis ac<br>
+                                        justo commodo, a fermentum lorem faucibus. <br>Nullam lobortis volutpat diam,
+                                        vel
+                                        cursus<br> mauris sollicitudin vel. Sed non aliquet ipsum.</p>
+                                    <button type="button" class="btn btn-outline-success">READ More</button>
+                                </div>
+                            </div>
+                            <div class="col-md-5 position-absolute bottom-0 start-0">
+                                <img src="https://cdn0-production-assets-kly.akamaized.net/medias/956759/big-portrait/062812000_1439620021-2.jpg"
+                                    class="img-fluid rounded-start" alt="..." style="width: 100%; height: 300px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Product -->
+    <section class="product-section">
+        <div class="container">
+            <div class="container text-center my-3">
+                <h2 class="font-weight-light">Our Products</h2>
+                <button id="btn-all" class="btn btn-outline-success">ALL</button>
+                <button id="btn-furnitures" class="btn">FURNITURES</button>
+                <button id="btn-decoration" class="btn">DECORATION</button>
+                <button id="btn-accessories" class="btn">ACCESSORIES</button>
+                <div class="row mx-auto my-auto">
+                    <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                        <div class="carousel-inner w-100" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card" style="width: 18rem; position: relative;">
+                                            <div class="green-layer">
+                                                <span class="discount-text">15% off</span>
+                                            </div>
+                                            <img src="http://placehold.it/380?text=1" class="card-img-top"
+                                                alt="Sunset Over the Sea" />
+                                            <div class="card-body">
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make up the bulk of the card's content.</p>
+                                                <!-- Bintang rating -->
+                                                <div class="star-rating">
+                                                    <i class="fa-solid fa-star" data-rating="1"></i>
+                                                    <i class="fa-solid fa-star" data-rating="2"></i>
+                                                    <i class="fa-solid fa-star" data-rating="3"></i>
+                                                    <i class="fa-solid fa-star" data-rating="4"></i>
+                                                    <i class="fa-solid fa-star" data-rating="5"></i>
+                                                </div>
+                                                <p class="card-text mt-2">Rp. 1.000.000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card" style="width: 18rem; position: relative;">
+                                            <div class="green-layer">
+                                                <span class="discount-text">15% off</span>
+                                            </div>
+                                            <img src="http://placehold.it/380?text=2" class="card-img-top"
+                                                alt="Sunset Over the Sea" />
+                                            <div class="card-body">
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make up the bulk of the card's content.</p>
+                                                <!-- Bintang rating -->
+                                                <div class="star-rating">
+                                                    <i class="fa-solid fa-star" data-rating="1"></i>
+                                                    <i class="fa-solid fa-star" data-rating="2"></i>
+                                                    <i class="fa-solid fa-star" data-rating="3"></i>
+                                                    <i class="fa-solid fa-star" data-rating="4"></i>
+                                                    <i class="fa-solid fa-star" data-rating="5"></i>
+                                                </div>
+                                                <p class="card-text mt-2">Rp. 1.000.000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card" style="width: 18rem; position: relative;">
+                                            <div class="green-layer">
+                                                <span class="discount-text">15% off</span>
+                                            </div>
+                                            <img src="http://placehold.it/380?text=3" class="card-img-top"
+                                                alt="Sunset Over the Sea" />
+                                            <div class="card-body">
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make up the bulk of the card's content.</p>
+                                                <!-- Bintang rating -->
+                                                <div class="star-rating">
+                                                    <i class="fa-solid fa-star" data-rating="1"></i>
+                                                    <i class="fa-solid fa-star" data-rating="2"></i>
+                                                    <i class="fa-solid fa-star" data-rating="3"></i>
+                                                    <i class="fa-solid fa-star" data-rating="4"></i>
+                                                    <i class="fa-solid fa-star" data-rating="5"></i>
+                                                </div>
+                                                <p class="card-text mt-2">Rp. 1.000.000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card" style="width: 18rem; position: relative;">
+                                            <div class="green-layer">
+                                                <span class="discount-text">15% off</span>
+                                            </div>
+                                            <img src="http://placehold.it/380?text=4" class="card-img-top"
+                                                alt="Sunset Over the Sea" />
+                                            <div class="card-body">
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make up the bulk of the card's content.</p>
+                                                <!-- Bintang rating -->
+                                                <div class="star-rating">
+                                                    <i class="fa-solid fa-star" data-rating="1"></i>
+                                                    <i class="fa-solid fa-star" data-rating="2"></i>
+                                                    <i class="fa-solid fa-star" data-rating="3"></i>
+                                                    <i class="fa-solid fa-star" data-rating="4"></i>
+                                                    <i class="fa-solid fa-star" data-rating="5"></i>
+                                                </div>
+                                                <p class="card-text mt-2">Rp. 1.000.000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card" style="width: 18rem; position: relative;">
+                                            <div class="green-layer">
+                                                <span class="discount-text">15% off</span>
+                                            </div>
+                                            <img src="http://placehold.it/380?text=5" class="card-img-top"
+                                                alt="Sunset Over the Sea" />
+                                            <div class="card-body">
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make up the bulk of the card's content.</p>
+                                                <!-- Bintang rating -->
+                                                <div class="star-rating">
+                                                    <i class="fa-solid fa-star" data-rating="1"></i>
+                                                    <i class="fa-solid fa-star" data-rating="2"></i>
+                                                    <i class="fa-solid fa-star" data-rating="3"></i>
+                                                    <i class="fa-solid fa-star" data-rating="4"></i>
+                                                    <i class="fa-solid fa-star" data-rating="5"></i>
+                                                </div>
+                                                <p class="card-text mt-2">Rp. 1.000.000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card" style="width: 18rem; position: relative;">
+                                            <div class="green-layer">
+                                                <span class="discount-text">15% off</span>
+                                            </div>
+                                            <img src="http://placehold.it/380?text=6" class="card-img-top"
+                                                alt="Sunset Over the Sea" />
+                                            <div class="card-body">
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make up the bulk of the card's content.</p>
+                                                <!-- Bintang rating -->
+                                                <div class="star-rating">
+                                                    <i class="fa-solid fa-star" data-rating="1"></i>
+                                                    <i class="fa-solid fa-star" data-rating="2"></i>
+                                                    <i class="fa-solid fa-star" data-rating="3"></i>
+                                                    <i class="fa-solid fa-star" data-rating="4"></i>
+                                                    <i class="fa-solid fa-star" data-rating="5"></i>
+                                                </div>
+                                                <p class="card-text mt-2">Rp. 1.000.000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle"
+                                aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle"
+                                aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="testimony-section">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <!-- Konten di sebelah kanan video -->
+                    <div class="other-content d-flex align-items-center justify-content-between">
+                        <!-- Tombol Previous -->
+                        <button class="btn btn-success prev-btn" id="prevBtn"><i
+                                class="fas fa-chevron-left"></i></button>
+                        <!-- Konten 1 -->
+                        <div class="content" id="content1">
+
+                            <h1 class="text-center">What People Saying</h1>
+                            <h1 class="text-center">,,</h1>
+                            <div class="star-rating text-center">
+                                <i class="fa-solid fa-star" data-rating="1"></i>
+                                <i class="fa-solid fa-star" data-rating="2"></i>
+                                <i class="fa-solid fa-star" data-rating="3"></i>
+                                <i class="fa-solid fa-star" data-rating="4"></i>
+                                <i class="fa-solid fa-star" data-rating="5"></i>
+                            </div>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                                minima quo corporis, rerum quibusdam alias aspernatur reprehenderit quas, vitae nihil
+                                adipisci. Ipsa quibusdam sed cum magni culpa architecto quis laborum.</p>
+                            <div class="text-center">
+                                <img src="https://media.istockphoto.com/id/1300845620/id/vektor/ikon-pengguna-datar-terisolasi-pada-latar-belakang-putih-simbol-pengguna-ilustrasi-vektor.jpg?s=612x612&w=0&k=20&c=QN0LOsRwA1dHZz9lsKavYdSqUUnis3__FQLtZTQ--Ro="
+                                    alt="Foto" class="rounded-circle" width="100" height="100">
+                            </div>
+                            <h3 class="text-center text-success">Scott & sherley</h3>
+                            <p class="text-center text-success">CEO of Company</p>
+
+                        </div>
+
+                        <!-- Konten 2 -->
+                        <div class="content" id="content2" style="display:none;">
+                            <h3>Konten 2</h3>
+                            <p>Deskripsi konten 2 yang ingin Anda sertakan di sebelah kanan dari video.</p>
+                        </div>
+                        <!-- Tombol Next -->
+                        <button class="btn btn-success next-btn" id="nextBtn"><i
+                                class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <!-- Video testimoni disini -->
+                    <div class="video-container">
+                        <video controls>
+                            <source src="example.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Working Area -->
+    <div class="container text-center mt-5 mb-4" style="height: 500px;">
+        <h1>Working Areas</h1>
+        <br>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20220314/pngtree-office-area-conference-room-image_1047935.jpg"
+                        class="card-img-top" alt="green iguana" />
+                    <div class="card-body">
+                        <h4>RESIDENTIAL</h4>
+                        <p class="card-text">
+                            residential home theater instaltion services
+                        </p>
+                        <div>
+                            <button type="button" class="btn btn-outline-success">Success</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20220314/pngtree-office-area-conference-room-image_1047935.jpg"
+                        class="card-img-top" alt="green iguana" />
+                    <div class="card-body">
+                        <h4>COMMERCIAL</h4>
+                        <p class="card-text">
+                            comercial a/v instaltion services
+                        </p>
+                        <div>
+                            <button type="button" class="btn btn-outline-success">Success</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20220314/pngtree-office-area-conference-room-image_1047935.jpg"
+                        class="card-img-top" alt="green iguana" />
+                    <div class="card-body">
+                        <h4>PACKAGED SOLUTIONS</h4>
+                        <p class="card-text">
+                            pricing & packaged solutions
+                        </p>
+                        <div>
+                            <button type="button" class="btn btn-outline-success">Success</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Gallery -->
+    <section id="portfolio" class="portfolio-section mt-5">
+        <div class="container justify-content-between">
+            <h1 class="section-title text-center">Portfolio</h1>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 px-lg-2">
+                    <a href="https://via.placeholder.com/400x400" data-fancybox="gallery"
+                        data-caption="Caption for Image 1">
+                        <img src="https://via.placeholder.com/400x400" class="shadow-1-strong rounded mb-4"
+                            alt="Image 1">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 px-lg-2 no-margin">
+                    <a href="https://via.placeholder.com/400x400" data-fancybox="gallery"
+                        data-caption="Caption for Image 2">
+                        <img src="https://via.placeholder.com/400x400" class="shadow-1-strong rounded mb-4"
+                            alt="Image 2">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 px-lg-2 no-margin">
+                    <a href="https://via.placeholder.com/400x400" data-fancybox="gallery"
+                        data-caption="Caption for Image 3">
+                        <img src="https://via.placeholder.com/400x400" class="shadow-1-strong rounded mb-4"
+                            alt="Image 3">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 px-lg-2 no-margin">
+                    <a href="https://via.placeholder.com/400x400" data-fancybox="gallery"
+                        data-caption="Caption for Image 4">
+                        <img src="https://via.placeholder.com/400x400" class="shadow-1-strong rounded mb-4"
+                            alt="Image 4">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 px-lg-2 no-margin">
+                    <a href="https://via.placeholder.com/400x400" data-fancybox="gallery"
+                        data-caption="Caption for Image 5">
+                        <img src="https://via.placeholder.com/400x400" class="shadow-1-strong rounded mb-4"
+                            alt="Image 5">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 px-lg-2 no-margin">
+                    <a href="https://via.placeholder.com/400x400" data-fancybox="gallery"
+                        data-caption="Caption for Image 6">
+                        <img src="https://via.placeholder.com/400x400" class="shadow-1-strong rounded mb-4"
+                            alt="Image 6">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Map -->
+    <section id="mapSection" class="mt-5">
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                    marginheight="0" marginwidth="0"
+                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q= Jl. Sisingamangaraja No.53, Perak Tim., Kec. Pabean Cantikan, Surabaya, Jawa Timur 60164&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                    href="https://strandsgame.net/">Strands Game</a></div>
+        </div>
+    </section>
+    <section id="questionSection" class="bg-dark text-white py-4">
+        <div class="container d-flex flex-column justify-content-between">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Have Question?
+                        <br> We have answers
+                    </h2>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <button type="button" class="btn btn-outline-success btn-lg">Contact</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container p-4">
+            <!-- Grid row -->
+
+            <!-- Grid row -->
+            <div class="row">
+                <!-- First column for links -->
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase text-dark">Quick Links</h5>
+                    <hr style="border-style: solid; border-color: green; border-width: 2px;">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-body bullet">&bull; Home</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-body bullet">&bull; About</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-body bullet">&bull; Services</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-body bullet">&bull; Portofolio</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-body bullet">&bull; Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End first column -->
+
+                <!-- Second column for links -->
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase text-dark">Support</h5>
+                    <hr style="border-style: solid; border-color: green; border-width: 2px;">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-body bullet">&bull; FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-body bullet">&bull; Employment</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-body bullet">&bull; Request A Quote</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End second column -->
+
+                <!-- Column for the image -->
+                <div class="col-lg-4 text-center mb-4 mb-md-0">
+                    <img src="assets/logo.png" alt="Footer Image" class="img-fluid">
+                    <div>
+                        <i class="fa-brands fa-instagram" style="color: black;"></i>
+                        <span style="margin-right: 10px;"></span>
+                        <i class="fa-brands fa-facebook" style="color: black;"></i>
+                        <span style="margin-right: 10px;"></span>
+                        <i class="fa-brands fa-pinterest-p" style="color: black;"></i>
+                    </div>
+                </div>
+
+                <!-- End image column -->
+
+                <!-- Fourth column for links -->
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase text-dark">More Info</h5>
+                    <hr style="border-style: solid; border-color: green; border-width: 2px;">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-body bullet">&bull; News</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-body bullet">&bull; Media</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-body bullet">&bull; Videos</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-body bullet">&bull; Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase text-dark">Contact</h5>
+                    <hr style="border-style: solid; border-color: green; border-width: 2px;">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+
+                            <i class=" fas fa-location-dot text-body"></i> <a href="#!" class="text-body bullet">350069
+                                Schogor Dr unit</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope text-body"></i> <a href="#!"
+                                class="text-body bullet">anjay@gmail.com</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- End fourth column -->
+            </div>
+            <!-- End grid row -->
+        </div>
+
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center py-3" style="background-color: grey">
+            <a href="#" style="color: greenyellow;">MY GUYS KNOW HOW. </a><span class="text-white">ALL RIGHTS
+                RESERVED</span>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('.slider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: true,
+                prevArrow: '<button type="button" class="slick-prev">&#10094;</button>',
+                nextArrow: '<button type="button" class="slick-next">&#10095;</button>',
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                }, {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }]
+            });
+        });
+    </script>
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Your custom JavaScript file -->
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

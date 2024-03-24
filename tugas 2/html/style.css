@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #121212;
+    color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: #333;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+}
+
+#timer {
+    font-size: 48px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.digit {
+    padding: 10px;
+}
+
+.txt {
+    padding: 0 5px;
+    font-size: 24px;
+
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+#startPause {
+    background-color: #4CAF50;
+
+}
+
+#pause {
+    background-color: #f44336;
+
+}
+
+#stop {
+    background-color: #f44336;
+
+}
+
+#flag {
+    background-color: #2196F3;
+
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#notes {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#notesList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#notesList li {
+    background-color: #444;
+    /* Warna latar belakang abu-abu */
+    padding: 5px;
+    /* Menambahkan padding untuk memberikan ruang di sekitar teks */
+    margin-bottom: 5px;
+    /* Memberikan jarak antara setiap elemen li */
+    border-radius: 5px;
+    /* Memberikan sudut bulat pada kotak */
+}
